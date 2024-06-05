@@ -164,24 +164,32 @@ section {
 
 .skill-card {
     position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: #fff;
     color: #000;
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 10;
     display: none;
-    z-index: 100;
+    max-width: 90%;
+    word-wrap: break-word;
 }
 
 .skill-card img {
-    width: 50px;
-    height: 50px;
+    max-width: 50px;
     margin-bottom: 1rem;
 }
 
 .skill-card p {
     font-size: 1rem;
     margin: 0;
+}
+
+.skill-item:hover .skill-card {
+    display: block;
 }
 
 /* Efeito hover para mudar cor do item e mostrar card */
@@ -376,10 +384,10 @@ footer p {
     }
 
     .skill-card {
-        width: 90%;
-        left: 5%;
-        top: auto;
-        bottom: 5%;
+        top: 110%;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 80%;
     }
 }
 
