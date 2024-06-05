@@ -292,3 +292,77 @@ footer p {
     font-size: 0.9rem;
     color: #aaa;
 }
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    header {
+        padding: 1rem 0.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .intro-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-pic {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .intro-text h1 {
+        font-size: 2rem;
+    }
+
+    .intro-text p {
+        font-size: 1.2rem;
+    }
+
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-item {
+        flex: 1 1 100%;
+        margin-bottom: 1rem;
+    }
+
+    .skill-card {
+        width: 90%;
+        left: 5%;
+        top: auto;
+        bottom: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .intro-text p {
+        font-size: 1rem;
+    }
+
+    .skill-card {
+        padding: 0.5rem;
+    }
+
+    .skill-card img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .skill-card p {
+        font-size: 0.9rem;
+    }
+}
