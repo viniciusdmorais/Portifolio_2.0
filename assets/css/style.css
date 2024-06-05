@@ -146,6 +146,79 @@ section {
     background-color: #563d7c; /* Back-End Development */
 }
 
+.skill-card {
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 100;
+}
+
+.skill-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+.skill-card p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Efeito hover para mudar cor do item e mostrar card */
+.skill-item:hover {
+    cursor: pointer;
+    position: relative;
+}
+
+.skill-item[data-skill="JavaScript"]:hover {
+    background-color: #f0db4f;
+    border-color: #f0db4f;
+}
+
+.skill-item[data-skill="SQL"]:hover {
+    background-color: #336791;
+    border-color: #336791;
+}
+
+.skill-item[data-skill="ADVPL"]:hover {
+    background-color: #5c2d91;
+    border-color: #5c2d91;
+}
+
+.skill-item[data-skill="HTML"]:hover {
+    background-color: #e44d26;
+    border-color: #e44d26;
+}
+
+.skill-item[data-skill="CSS"]:hover {
+    background-color: #264de4;
+    border-color: #264de4;
+}
+
+.skill-item[data-skill="Python"]:hover {
+    background-color: #306998;
+    border-color: #306998;
+}
+
+.skill-item[data-skill="Business Intelligence"]:hover {
+    background-color: #ffcc00;
+    border-color: #ffcc00;
+}
+
+.skill-item[data-skill="Front-End Development"]:hover {
+    background-color: #61dafb;
+    border-color: #61dafb;
+}
+
+.skill-item[data-skill="Back-End Development"]:hover {
+    background-color: #333;
+    border-color: #333;
+}
+
 #projetos {
     background-color: #333;
 }
