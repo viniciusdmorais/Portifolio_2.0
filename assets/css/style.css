@@ -105,6 +105,47 @@ section {
     text-align: center;
 }
 
+/* Efeitos de Hover nas Habilidades */
+.skill-item:hover {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.skill-item:hover:nth-child(1) {
+    background-color: #cdcbcb; /* ADVPL */
+}
+
+.skill-item:hover:nth-child(2) {
+    background-color: #ffcc00; /* SQL */
+}
+
+.skill-item:hover:nth-child(3) {
+    background-color: #f7df1e; /* JavaScript */
+}
+
+.skill-item:hover:nth-child(4) {
+    background-color: #e34f26; /* HTML */
+}
+
+.skill-item:hover:nth-child(5) {
+    background-color: #264de4; /* CSS */
+}
+
+.skill-item:hover:nth-child(6) {
+    background-color: #306998; /* Python */
+}
+
+.skill-item:hover:nth-child(7) {
+    background-color: #3498db; /* Business Intelligence */
+}
+
+.skill-item:hover:nth-child(8) {
+    background-color: #f16529; /* Front-End Development */
+}
+
+.skill-item:hover:nth-child(9) {
+    background-color: #563d7c; /* Back-End Development */
+}
+
 #projetos {
     background-color: #333;
 }
