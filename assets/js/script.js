@@ -79,3 +79,22 @@ document.querySelectorAll('.skill-item').forEach(item => {
         card.style.display = 'none';
     });
 });
+
+// Alternar menu de navegação
+document.getElementById('menu-icon').addEventListener('click', function() {
+    document.getElementById('nav-list').classList.toggle('show');
+});
+
+// Suavizar rolagem ao clicar nos links do menu
+document.querySelectorAll('nav ul li a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+
+        // Fechar o menu após clicar em um link
+        document.getElementById('nav-list').classList.remove('show');
+    });
+});
