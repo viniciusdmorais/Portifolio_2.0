@@ -26,6 +26,22 @@ header {
     z-index: 1000;
 }
 
+/* Estilos para o ícone de menu hambúrguer */
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    width: 30px;
+    height: 21px;
+    justify-content: space-between;
+}
+
+.menu-icon .bar {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -299,6 +315,29 @@ footer p {
         padding: 1rem 0.5rem;
     }
 
+    .menu-icon {
+        display: flex;
+    }
+
+    nav ul {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #1a1a1a;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 1rem 0;
+    }
+
     nav ul {
         flex-direction: column;
         align-items: center;
@@ -345,6 +384,29 @@ footer p {
 }
 
 @media (max-width: 480px) {
+    .menu-icon {
+        display: flex;
+    }
+
+    nav ul {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #1a1a1a;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 1rem 0;
+    }
+    
     .intro-text h1 {
         font-size: 1.5rem;
     }
