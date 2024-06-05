@@ -22,12 +22,15 @@ Confira o portfólio completo acessando o [link do site](https://viniciusdmorais
     - `script.js`: Arquivo de scripts JavaScript.
   - `img/`
     - `vinicius.jpg`: Foto de perfil.
+    - `linkedin.png`: Ícone do LinkedIn.
+    - `instagram.png`: Ícone do Instagram.
+    - `github.png`: Ícone do GitHub.
 
 ## Funcionalidades
 
 - Navegação suave ao clicar nos itens do menu.
 - Transições de fundo do cabeçalho ao rolar a página.
-- Seções detalhadas sobre mim, minhas habilidades e meus projetos.
+- Seções detalhadas sobre mim, minhas habilidades, meus projetos e contato.
 
 ## Como Contribuir
 
@@ -39,7 +42,11 @@ Confira o portfólio completo acessando o [link do site](https://viniciusdmorais
 
 ## Contato
 
-Para mais informações, entre em contato comigo através do [LinkedIn](https://www.linkedin.com/in/viniciusdmorais/).
+Para mais informações, entre em contato comigo através das redes sociais:
+
+- [LinkedIn](https://www.linkedin.com/in/viniciusdemoraismendes)
+- [Instagram](https://www.instagram.com/vinymorais_/)
+- [GitHub](https://github.com/viniciusdmorais)
 
 ---
 
